@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding:2%;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    margin: 0%;
+    background-color: #828EDB;
+}
+.box{
+    display: flex;
+    background-color: #D2D5E7;
+    flex-direction: column;
+    border-radius: 30px;
+    width: 600px;
+    height: 300px;
+    margin: 0 auto;
+    padding: 60px;
+    align-items:flex-end;
+    position: relative;
+    background-color: 2px  black;
+    border:solid 3px black;
+    justify-content: center;
+}
+h2{
+    position: relative;
+    font-size: 35px;
+    text-align: right;
+    white-space: nowrap;
+    font-weight: bold;
+    left:20px;
+    top: -2%;
+}
+.input-box{
+    position: relative;
+    align-items: right;
+    left:14%;
+    width: 100%;
+    top:-2px;
+    padding:14px;
+    border-radius: 15px;
+}
+.welcome{
+    font-size: 20px;
+    position: absolute;
+    top: 32%;
+    left:32px;
+}
+.health{
+    font-size:30px;
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    transform: translate(-42%);
+    color: #4a4b4f87;
+    padding: 2%;
+}
+.input-box input{
+    position: relative;
+    width: 200px;
+    padding: 12px;
+    background-color: #ffff;
+    border-radius: 5px;
+    padding-right: 50px;
+}
+button{
+    position: relative;
+    width: 266px;
+    border-radius: 8px;
+    padding: 12px;
+    background-color: #ffff;
+}
+.submit-button button{
+    background-color: #828EDB;
+    color: #ffff;
+    font-size: 15px;
+}
+.show-button{
+    position: absolute;
+    justify-content: center;
+    right:80px;
+    top:50%;
+    width:0px;
+    border:none;
+    padding: 20px;
+    transform: translateY(-50%);
+    background-color: transparent;
+}
